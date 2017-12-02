@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.helloandroid.MainActivity"
+    android:background="#039BE5">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/picture"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="map"
+        android:drawableStart="@drawable/location_icon"
+        android:padding="16dp"
+        android:text="@string/map"
+        android:textSize="20dp"  />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoLink="phone"
+        android:drawableStart="@drawable/ic_phone_black_18dp"
+        android:padding="16dp"
+        android:text="@string/phone"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:autoLink="web"
+        android:drawableStart="@drawable/ic_public_black_18dp"
+        android:padding="16dp"
+        android:text="@string/udacity"
+        android:textSize="30sp" />
+
+
+</LinearLayout>
